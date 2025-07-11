@@ -1,0 +1,292 @@
+
+.raleway-font-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+}
+
+/* shared styles  */
+
+.primary-color{
+    color: rgba(78, 71, 255, 1);
+}
+
+.primary-button{
+    background-color: #4e47ff;
+    color: #ffffff;
+    
+
+
+}
+
+ /* hover styles */
+ .button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4e47ff; 
+  color:red;
+}
+
+
+
+
+
+/* header styles  */
+
+.header-bg{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+}
+.banner-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.header-text{
+    width: 100px;
+    height: 50px;
+
+}
+
+.header-button-one{
+     
+    font-weight: bold;
+    font-size: 30px;
+    padding: 18px 36px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+/* header last part styles */
+.header-h{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+     
+   
+    
+}
+
+
+
+
+.header-last-text{
+   
+    color: #252432;
+    font-weight: bold;
+    font-size: 65px;
+      margin-left: 200px ;
+    margin-right: 200px ;
+    padding-left: 100px;
+    
+}
+
+.header-button-two{
+    
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 80px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 620px ;
+    margin-right: 620px ;
+    
+   
+    
+   
+  
+   
+
+}
+
+/* section-one-styles  */
+
+.section-one{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    margin: 116px 160px 116px 120px;
+}
+
+.section-one-div{
+    padding-left: 100px;
+}
+.section-one-title{
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 60px;
+    
+}
+.section-one-para{
+    font-size:24px ;
+    font-weight: 200;
+
+}
+.section-one-button{
+    padding: 15px 25px;
+    border-radius: 20px;
+
+}
+
+.section-one-img{
+    border-radius: 48px;
+}
+
+/* section-two-styles  */
+.section-two{
+    background-color: rgba(78, 71, 255, 0.1);
+     margin: 0px 160px 116px 120px;
+     height: 400px;
+
+}
+.section-two-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+
+}
+
+.section-two-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.section-two-h{
+    color: rgba(78, 71, 255, 1);
+    font-size: 60px;
+    font-family: 'inter';
+    
+    
+    
+}
+.section-two-p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px ;
+    margin-top: -20px;
+    
+
+
+}
+
+/* section-third-styles  */
+.section-third{
+    /* background-color: #f2eded;  */
+    margin: 0px 160px 116px 120px;
+     height: 400px;
+
+}
+.section-third-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.section-third-card-all-part{
+    display: flex;
+    align-items: center;
+  
+   
+}
+.section-third-card{
+   background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    margin: 30px;
+}
+
+.section-third-icon{
+    display: flex;
+}
+
+.section-forth-img-and-review{
+    display: flex;
+    margin-left: 5px;
+   
+}
+
+.section-third-img-two{
+    border-radius: 50%;
+    
+    padding: 20px;
+    margin-left: 10px;
+}
+.section-third-review{
+    
+}
+
+
+/* section five styles  */
+
+.section-five{
+    margin: 0px 160px 116px 120px;
+    height: 600px;
+    background-color: #d6dded;
+}
+.section-five-part{
+    display: flex;
+    gap: 100px;
+    
+    
+}
+.section-five-title{
+    padding: 100px 120px 200px 20px;
+}
+.section-five-h{
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.section-five-form input[type="text"],  input[type="email"],textarea {
+height: 40px;
+border-radius: 10px;
+background-color: white;
+display: block;
+width: 450px;
+padding: 20px 20px;
+margin-bottom: 10px;
+border: none;
+
+}
+.section-five-button{
+    padding: 20px ;
+    /* margin: 20px;  */
+    border-radius: 10px;
+    width: 500px;
+    height: 60px;
+    border: none;
+}
+
+/* footer styles  */
+
+
+
+.footer-part{
+    height: 450px;
+    text-align: center;
+}
+.footer-title{
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+    font-weight: bold;
+} 
+footer div a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+

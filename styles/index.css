@@ -21,14 +21,7 @@
 }
 
  /* hover styles */
- /* .button {
-  transition-duration: 0.4s;
-}
-
-.button:hover {
-  background-color: #4e47ff; 
-  color:red;
-} */
+ 
 
 .button {
   background-color: blue;
@@ -194,7 +187,7 @@
 
 /* section-third-styles  */
 .section-third{
-    /* background-color: #f2eded;  */
+    /* background-color: #ffffff;  */
     margin: 0px 160px 116px 120px;
      height: 400px;
 
@@ -209,6 +202,8 @@
 .section-third-card-all-part{
     display: flex;
     align-items: center;
+    margin-top: -20px;
+    background-color: #d6dded;
   
    
 }
